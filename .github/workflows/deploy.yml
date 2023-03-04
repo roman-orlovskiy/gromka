@@ -6,10 +6,11 @@ on:
             - main
 
 jobs:
-    deploy:
+    deployment:
         runs-on: ubuntu-latest
+        environment: production
         steps:
-            - uses: actions/checkout@v2
+            - name: deploy
       # Setup key
       - run: set -eu
       - run: mkdir "$HOME/.ssh"
