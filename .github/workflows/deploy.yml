@@ -2,11 +2,11 @@ name: Deploy
 
 on: [push]
 jobs:
-    deploy:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v3
-        - run: |
+deploy:
+runs-on: ubuntu-latest
+steps:
+    - uses: actions/checkout@v3
+    - run: |
           set -eu
           mkdir "$HOME/.ssh"
           echo "${{secrets.KEY}}" > "$HOME/.ssh/key"
