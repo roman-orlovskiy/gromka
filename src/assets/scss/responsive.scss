@@ -1,0 +1,36 @@
+@use "sass:math";
+/* Responsive breakpoints */
+
+@mixin layout-mobile {
+  @media (max-width: $breakpoint-mobile) {
+    @content;
+  }
+}
+
+@mixin layout-aspect-tablet() {
+  @media (max-aspect-ratio: 14/10) {
+    @content;
+  }
+}
+
+@mixin layout-aspect-mobile() {
+  @media (max-aspect-ratio: 9/10) {
+    @content;
+  }
+}
+
+@function vw($width) {
+  @return math.div($width*100vw, 1440);
+}
+
+@function vh($height) {
+  @return math.div($height*100vh, 1024);
+}
+
+@function vwMobile($width) {
+  @return math.div($width*100vw, 375);
+}
+
+@function vhMobile($height) {
+  @return math.div($height*100vh, 761);
+}

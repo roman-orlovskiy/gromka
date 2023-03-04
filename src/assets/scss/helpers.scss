@@ -1,0 +1,6 @@
+.colored {
+  color: $color-brand;
+  &>a {
+    color: $color-brand;
+  }
+}

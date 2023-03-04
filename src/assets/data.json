@@ -1,0 +1,246 @@
+{
+  "portfolioList": [
+    {
+      "href": "https://specials.sports.ru/figurevotes/",
+      "preview": "https://www.sports.ru/storage/dumpster/3/84/7877ffb64f2f183eeed8f6fc49f12.png",
+      "title": "<b>Спецпроект «МИР» и Sports.ru</b><br>Наградите лучших фигуристов России",
+      "clients": ["mir", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://specials.sports.ru/footballstars/",
+      "preview": "https://www.sports.ru/storage/dumpster/0/9e/da4a98bc281db60223ef996fcd7e6.png",
+      "title": "<b>Игра «Fonbet» и Sports.ru</b><br>Съедобное-несъедобное",
+      "clients": ["fonbet", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://specials.sports.ru/winter_heroes/",
+      "preview": "https://www.sports.ru/storage/dumpster/1/09/99668a588fdcf09321e5e0968dada.png",
+      "title": "<b>Игра «Vitamin Well» и Sports.ru</b><br>Герои зимнего спорта",
+      "clients": ["vitaminwell", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://specials.sports.ru/ourlegends/",
+      "preview": "https://www.sports.ru/storage/dumpster/b/cc/5fcec75662cb46362f29ce437fe6f.png",
+      "title": "<b>Спецпроект «МИР» и Sports.ru</b><br>от Евро-1960 к Евро-2020",
+      "clients": ["mir", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://specials.sports.ru/ten/",
+      "preview": "https://www.sports.ru/storage/dumpster/c/b1/8a5a903e7e86511f222723a09923b.png",
+      "title": "<b>Спецпроект «HP Omen» и Sports.ru</b><br>Найди 10 отличий в главных событиях Евро",
+      "clients": ["hp", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://specials.sports.ru/cyber-recall/",
+      "preview": "https://www.sports.ru/storage/dumpster/1/25/07deef007b895d94656f940b759b7.png",
+      "title": "<b>Спецпроект Sports.ru, «NAVI» и «PUMA»</b><br>Угадай игрока в CS:GO по хайлайту",
+      "clients": ["navi", "puma", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://specials.sports.ru/yourgame/",
+      "preview": "https://www.sports.ru/storage/dumpster/8/a6/f5cf4d6a46252199f0cb444441e40.png",
+      "title": "<b>Игра «Лиги Ставок» и Sports.ru</b><br>Свой футбол",
+      "clients": ["ligastavok", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://feverpitch.ru/",
+      "preview": "https://www.sports.ru/storage/dumpster/c/ba/4c1dd30bb9206ff64d9380c3e5322.png",
+      "title": "<b>Лэндинг для Fever Pitch</b><br>Агентство спортивного digital-маркетинга",
+      "clients": ["feverpitch", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://specials.sports.ru/truefalse/",
+      "preview": "https://www.sports.ru/storage/dumpster/2/f9/bbc86cd2d52e56a1f8a8f7e03a95d.png",
+      "title": "<b>Игра «Мелбет» и Sports.ru</b><br>Правда или ложь",
+      "clients": ["melbet", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://specials.sports.ru/invest-in-games/",
+      "preview": "https://www.sports.ru/storage/dumpster/e/eb/33d01ddfc4759d8a4e57e19747ad2.png",
+      "title": "<b>Спецпроект Sports.ru и «Открытие Инвестиции»</b><br>Зимние биржевые Игры",
+      "clients": ["openbroker", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://specials.sports.ru/jerseypsg/",
+      "preview": "https://www.sports.ru/storage/dumpster/2/10/d2706f788d816510103b4c4495ad4.png",
+      "title": "<b>Игра «Fonbet» и Sports.ru</b><br>Розыгрыш футболок Анхеля Ди Марии и Мауро Икарди!",
+      "clients": ["fonbet", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://specials.sports.ru/assist/",
+      "preview": "https://www.sports.ru/storage/dumpster/a/2f/94394343245356a976bde533b49d3.jpg",
+      "title": "<b>Спецпроект «Лиги Ставок» и Sports.ru</b><br>Ты – ассистент на Чемпионате мира",
+      "clients": ["ligastavok", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://specials.sports.ru/gifts/",
+      "preview": "https://www.sports.ru/storage/dumpster/d/d2/6a5b87edbbc3084af9618f08d422c.jpg",
+      "title": "<b>Игра Мир и Sports.ru</b><br>Угадайте, кто что дарит на 8 марта",
+      "clients": ["mir", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://specials.sports.ru/findten/",
+      "preview": "https://www.sports.ru/storage/dumpster/3/ea/f2a79c099fa7ecaa1a2d0aec8f546.png",
+      "title": "<b>Игра «Fonbet» и Sports.ru</b><br>Найдите 10 отличий в раздевалке ЦСКА",
+      "clients": ["fonbet", "sports"],
+      "label": "developmentOnly"
+    },
+    {
+      "href": "https://www.sports.ru/mirrussia/bingo/",
+      "preview": "https://www.sports.ru/storage/dumpster/d/a0/6060512ddaadc37d28da4d7c2b212.png",
+      "title": "<b>Спецпроект «МИР» и Sports.ru</b><br>Бинго со сборной",
+      "clients": ["mir", "sports"],
+      "label": "developmentOnly"
+    }
+  ],
+  "startupsList": [
+    {
+      "href": "https://vimeo.com/manage/videos/446534518",
+      "preview": "/oOpen.png",
+      "title": "<b>oOpen.space</b><br>Сервис перформансов на мероприятиях",
+      "clients": ["oOpen"],
+      "label": "oOpenDescription"
+    },
+    {
+      "href": "/gromkaSport.pdf",
+      "preview": "/gromkaSport.png",
+      "title": "<b>Gromka Sport</b><br>Поиск единомышленников в спорте",
+      "clients": ["gromkaSport"],
+      "label": "gromkaSportDescription"
+    }
+  ],
+  "pricesList": [
+    {
+      "href": "https://t.me/roman_orlovskiy",
+      "preview": "/gromkaPrices.png",
+      "title": "<b><span>&#x2022; </span>Разработка</b> – 2500₽/час<br><b><span>&#x2022; </span>Дизайн</b> – 2000₽/час",
+      "clients": ["tg", "phone", "mail"],
+      "label": "priceDescription"
+    }
+  ],
+  "contactsList": [
+    {
+      "href": "https://t.me/roman_orlovskiy",
+      "preview": "/gromkaContacts.png",
+      "title": "<span>&#x2022; </span><a href='tel:+79965637586' target='_blank'><b>+79965637586</b></a><br><span>&#x2022; </span><a href='mailto:mail@gromka.tech' target='_blank'><b>mail@gromka.tech</b></a>",
+      "clients": ["tg", "phone", "shutka"],
+      "label": "contactsDescription"
+    }
+  ],
+  "clients": {
+    "shutka": {
+      "name": "Шутки",
+      "href": "https://t.me/+yVgEs72Azaw3ZjQy"
+    },
+    "mail": {
+      "name": "Email",
+      "href": "mailto:mail@gromka.tech"
+    },
+    "phone": {
+      "name": "Телефон",
+      "href": "tel:+79965637586"
+    },
+    "tg": {
+      "name": "Телеграм",
+      "href": "https://t.me/roman_orlovskiy"
+    },
+    "gromkaSport": {
+      "name": "Презентация",
+      "href": "/gromkaSport.pdf"
+    },
+    "oOpen": {
+      "name": "Видео презентация",
+      "href": "https://vimeo.com/manage/videos/446534518"
+    },
+    "fonbet": {
+      "name": "Фонбет",
+      "href": "https://www.fon.bet/"
+    },
+    "sirena": {
+      "name": "Сирена",
+      "href": "https://t.me/sirenachannel"
+    },
+    "sports": {
+      "name": "Sports.ru",
+      "href": "https://www.sports.ru/"
+    },
+    "melbet": {
+      "name": "Мелбет",
+      "href": "https://www.melbet.ru/"
+    },
+    "ligastavok": {
+      "name": "Лига ставок",
+      "href": "https://www.ligastavok.ru/"
+    },
+    "openbroker": {
+      "name": "Открытие",
+      "href": "https://open-broker.ru/invest/"
+    },
+    "vitaminwell": {
+      "name": "Vitamin Well",
+      "href": "https://www.vitaminwell.com/"
+    },
+    "navi": {
+      "name": "NAVI",
+      "href": "https://navi.gg/"
+    },
+    "puma": {
+      "name": "PUMA",
+      "href": "https://puma.com"
+    },
+    "hp": {
+      "name": "HP",
+      "href": "https://www.hp.com"
+    },
+    "mir": {
+      "name": "МИР",
+      "href": "https://privetmir.ru/"
+    },
+    "feverpitch": {
+      "name": "Fever Pitch",
+      "href": "https://feverpitch.ru/"
+    }
+  },
+  "labels": {
+    "developmentOnly": "<b class='colored'><a target='_blank' href='__href__'>Разработка</a></b> по готовому ТЗ и дизайну для:",
+    "oOpenDescription": "Один телефон – пиксель.<br>Много телефонов – <b class='colored'>огромный экран</b>",
+    "gromkaSportDescription": "<b class='colored'>Соцсеть для любителей спорта</b>:<br>общение и новые хобби!",
+    "priceDescription": "<b class='colored'>Наши ошибки исправляем бесплатно :)</b><br>Ваши доработки и изменения в ТЗ оцениваем отдельно",
+    "contactsDescription": "<b class='colored'><a target='_blank' href='https://t.me/roman_orlovskiy'>t.me/roman_orlovskiy</a></b>:"
+  },
+  "menuItems": [
+    {
+      "id": "portfolio",
+      "menuTitle": "Портфолио",
+      "breadcrumbTitle": "Портфолио"
+    },
+    {
+      "id": "startups",
+      "menuTitle": "Наши стартапы и идеи",
+      "breadcrumbTitle": "Стартапы"
+    },
+    {
+      "id": "prices",
+      "menuTitle": "Цены за разработку",
+      "breadcrumbTitle": "Цены"
+    },
+    {
+      "id": "contacts",
+      "menuTitle": "Контакты",
+      "breadcrumbTitle": "Контакты"
+    }
+  ]
+}
