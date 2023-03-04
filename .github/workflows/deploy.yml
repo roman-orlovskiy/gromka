@@ -1,23 +1,17 @@
 name: Deploy
 
-on:
-    push:
-        branches:
-            - main
-
+on: [push]
 jobs:
-    deployment:
+    deploy:
         runs-on: ubuntu-latest
-        environment: production
         steps:
-            - name: deploy
-      # Setup key
-      - run: set -eu
-      - run: mkdir "$HOME/.ssh"
-      - run: echo "${{ secrets.key }}" > "$HOME/.ssh/key"
-      - run: chmod 600 "$HOME/.ssh/key"
-      # Deploy
-      - run: npm ci
-      - run: npm run build
-      # Deploy
-        - run: cd dist && rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . u1801466@31.31.198.36:/var/www/u1801466/data/www/gromka.tech/test
+            - uses: actions/checkout@v3
+        - run: |
+          set -eu
+          mkdir "$HOME/.ssh"
+          echo "${{secrets.KEY}}" > "$HOME/.ssh/key"
+          chmod 600 "$HOME/.ssh/key"
+          npm ci
+          npm run build
+          cd dist
+          rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . u1801466@31.31.198.36:/var/www/u1801466/data/www/gromka.tech/test
