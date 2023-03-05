@@ -109,14 +109,14 @@
   "startupsList": [
     {
       "href": "https://vimeo.com/manage/videos/446534518",
-      "preview": "/oOpen.png",
+      "preview": "/images/oOpen.png",
       "title": "<b>oOpen.space</b><br>Сервис перформансов на мероприятиях",
       "clients": ["oOpen"],
       "label": "oOpenDescription"
     },
     {
-      "href": "/gromkaSport.pdf",
-      "preview": "/gromkaSport.png",
+      "href": "/files/gromkaSport.pdf",
+      "preview": "/images/gromkaSport.png",
       "title": "<b>Gromka Sport</b><br>Поиск единомышленников в спорте",
       "clients": ["gromkaSport"],
       "label": "gromkaSportDescription"
@@ -125,7 +125,7 @@
   "pricesList": [
     {
       "href": "https://t.me/roman_orlovskiy",
-      "preview": "/gromkaPrices.png",
+      "preview": "/images/gromkaPrices.png",
       "title": "<b><span>&#x2022; </span>Разработка</b> – 2500₽/час<br><b><span>&#x2022; </span>Дизайн</b> – 2000₽/час",
       "clients": ["tg", "phone", "mail"],
       "label": "priceDescription"
@@ -134,7 +134,7 @@
   "contactsList": [
     {
       "href": "https://t.me/roman_orlovskiy",
-      "preview": "/gromkaContacts.png",
+      "preview": "/images/gromkaContacts.png",
       "title": "<span>&#x2022; </span><a href='tel:+79965637586' target='_blank'><b>+79965637586</b></a><br><span>&#x2022; </span><a href='mailto:mail@gromka.tech' target='_blank'><b>mail@gromka.tech</b></a>",
       "clients": ["tg", "phone", "shutka"],
       "label": "contactsDescription"
@@ -159,7 +159,7 @@
     },
     "gromkaSport": {
       "name": "Презентация",
-      "href": "/gromkaSport.pdf"
+      "href": "/files/gromkaSport.pdf"
     },
     "oOpen": {
       "name": "Видео презентация",
