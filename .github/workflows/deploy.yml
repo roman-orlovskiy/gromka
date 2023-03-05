@@ -10,8 +10,6 @@ jobs:
                   set -eu
                   mkdir "$HOME/.ssh"
                   echo "${{secrets.REGRU}}" > "$HOME/.ssh/regru"
-                  cat $HOME/.ssh/regru
-                  echo "${{secrets.REGRU}}"
                   chmod 600 "$HOME/.ssh/regru"
                   npm ci
                   npm run build
