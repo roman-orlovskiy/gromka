@@ -9,7 +9,7 @@ jobs:
             - run: |
                   set -eu
                   mkdir "$HOME/.ssh"
-                  echo "${{secrets.KEY}}" > "$HOME/.ssh/key"
+                  echo "${{secrets.regru_key}}" > "$HOME/.ssh/key"
                   chmod 600 "$HOME/.ssh/key"
                   npm ci
                   npm run build
