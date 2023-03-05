@@ -14,4 +14,4 @@ jobs:
                   npm ci
                   npm run build
                   cd dist
-                  rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . u1801466@31.31.198.36:/var/www/u1801466/data/www/gromka.tech/test
+                  rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . u1801466@server242.hosting.reg.ru:/var/www/u1801466/data/www/gromka.tech/test
