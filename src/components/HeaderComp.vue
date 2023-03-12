@@ -24,6 +24,7 @@
             </div>
           </div>
         </div>
+        <Dropdown />
       </div>
     </div>
     <div class="header__indent" />
@@ -31,6 +32,7 @@
 </template>
 
 <script setup>
+import Dropdown from '@/components/DropdownComp.vue';
 import { useRoute } from 'vue-router';
 import { computed } from 'vue';
 import data from '@/assets/data.json';
