@@ -61,6 +61,9 @@ const breadcrumb = computed(() => getObjectById(menuItems, route.name).breadcrum
   z-index: 1000;
   &__content {
     width: 120vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     @include layout-aspect-tablet {
       width: 92%;
     }
