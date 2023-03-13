@@ -8,8 +8,14 @@
       <img src="@/assets/images/auth.svg/">
     </button>
     <div v-show="isOpen" class="dropdown__item">
-      <div>Введите код из телеграм-бота gromkaBot:</div>
-      <input />
+      <div class="dropdown__description">
+        Введите код из телеграм-бота
+        <span>&nbsp;</span>
+        <a href="https://t.me/gromkaBot" target="_blank">@gromkaBot</a>:
+      </div>
+      <input
+        class="dropdown__code"
+      />
     </div>
   </div>
 </template>
@@ -68,5 +74,26 @@ function closeDropdown() {
   box-shadow: 0 0 10px rgba(255,103,91,0.5);
   padding: 0.8vh 1.4vh;
   border-radius: 1.6vh;
+}
+
+.dropdown__description {
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 110%;
+  &>a {
+    white-space: nowrap;
+  }
+}
+
+.dropdown__code {
+  font-family: $font-default !important;
+  font-size: 0.9rem;
+  background-color: $color-white;
+  border: 2px solid $color-brand;
+  border-radius: 1.4vh;
+  margin-top: 1.2vh;
+  padding: 0.8vh 1.4vh;
+  width: 100%;
 }
 </style>
