@@ -8,7 +8,8 @@
       <img src="@/assets/images/auth.svg/">
     </button>
     <div v-show="isOpen" class="dropdown__item">
-      Hello
+      <div>Введите код из телеграм-бота gromkaBot:</div>
+      <input />
     </div>
   </div>
 </template>
