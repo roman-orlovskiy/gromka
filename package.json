@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "click-outside-vue3": "^4.0.1",
     "lodash.throttle": "^4.1.1",
     "pinia": "^2.0.22",
     "vue": "^3.2.37",

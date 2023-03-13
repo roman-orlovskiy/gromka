@@ -1,5 +1,8 @@
 <template>
-  <div class="dropdown">
+  <div
+    class="dropdown"
+    v-click-outside="closeDropdown"
+  >
     <button class="dropdown__toggle" @click="toggleDropdown">
       <span>Войти через телеграм</span>
       <img src="@/assets/images/auth.svg/">
@@ -26,9 +29,13 @@ function toggleDropdown() {
   isOpen.value = !isOpen.value;
 }
 
+function closeDropdown() {
+  isOpen.value = false;
+}
+
 function selectOption(option) {
   selectedOption.value = option;
-  isOpen.value = false;
+  closeDropdown();
 }
 </script>
 
