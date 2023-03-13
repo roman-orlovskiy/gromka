@@ -7,14 +7,9 @@
       <span>Войти через телеграм</span>
       <img src="@/assets/images/auth.svg/">
     </button>
-    <ul v-show="isOpen" class="dropdown__list">
-      <li
-        v-for="(option, index) in options" :key="index"
-        @click="selectOption(option)"
-      >
-        {{ option }}
-      </li>
-    </ul>
+    <div v-show="isOpen" class="dropdown__item">
+      Hello
+    </div>
   </div>
 </template>
 
@@ -22,8 +17,6 @@
 import { ref } from 'vue';
 
 const isOpen = ref(false);
-const selectedOption = ref('');
-const options = ['Option 1', 'Option 2', 'Option 3'];
 
 function toggleDropdown() {
   isOpen.value = !isOpen.value;
@@ -31,11 +24,6 @@ function toggleDropdown() {
 
 function closeDropdown() {
   isOpen.value = false;
-}
-
-function selectOption(option) {
-  selectedOption.value = option;
-  closeDropdown();
 }
 </script>
 
@@ -68,23 +56,16 @@ function selectOption(option) {
   }
 }
 
-.dropdown__list {
+.dropdown__item {
   position: absolute;
   top: 100%;
   left: 0;
-  margin-top: 8px;
-  padding: 0;
-  list-style: none;
-  border: 1px solid #ccc;
-  background-color: #fff;
-}
-
-.dropdown__list li {
-  padding: 8px;
-  cursor: pointer;
-}
-
-.dropdown__list li:hover {
-  background-color: #f2f2f2;
+  width: 100%;
+  margin-top: 1.2vh;
+  border: 2px solid $color-brand;
+  background-color: $color-white;
+  box-shadow: 0 0 10px rgba(255,103,91,0.5);
+  padding: 0.8vh 1.4vh;
+  border-radius: 1.6vh;
 }
 </style>
