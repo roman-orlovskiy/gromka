@@ -59,6 +59,9 @@ const breadcrumb = computed(() => getObjectById(menuItems, route.name).breadcrum
   -moz-box-shadow: 0px 5px 5px 0px rgba(255,103,91,0.5);
   box-shadow: 0px 5px 5px 0px rgba(255,103,91,0.5);
   z-index: 1000;
+  @include layout-aspect-mobile {
+    height: 6rem;
+  }
   &__content {
     width: 120vh;
     display: flex;
@@ -66,6 +69,9 @@ const breadcrumb = computed(() => getObjectById(menuItems, route.name).breadcrum
     align-items: center;
     @include layout-aspect-tablet {
       width: 92%;
+    }
+    @include layout-aspect-mobile {
+      flex-direction: column-reverse;
     }
   }
   &__logo-wrapper {
@@ -108,6 +114,9 @@ const breadcrumb = computed(() => getObjectById(menuItems, route.name).breadcrum
   }
   &__indent {
     height: 3.3rem;
+    @include layout-aspect-mobile {
+      height: 6rem;
+    }
   }
   &__breadcrumbs {
     display: flex;

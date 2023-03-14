@@ -38,10 +38,13 @@ function closeDropdown() {
 .dropdown {
   position: relative;
   display: inline-block;
+  @include layout-aspect-mobile {
+    margin-bottom: 1.5vh;
+  }
 }
 
 .dropdown__toggle {
-  padding: 0.8vh 1.4vh;
+  padding: 0.7vh 1.1vh;
   border: 2px solid $color-brand;
   border-radius: 1.6vh;
   cursor: pointer;
@@ -49,10 +52,10 @@ function closeDropdown() {
   align-items: center;
   background-color: $color-brand;
   color: $color-white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   &>img {
     padding: 1vh;
-    margin-left: 0.6vh;
+    margin-left: 0.4vh;
     width: 5vh;
     background-color: $color-brand;
     border-radius: 20%;
@@ -72,7 +75,7 @@ function closeDropdown() {
   border: 2px solid $color-brand;
   background-color: $color-white;
   box-shadow: 0 0 10px rgba(255,103,91,0.5);
-  padding: 0.8vh 1.4vh;
+  padding: 0.7vh 1.1vh;
   border-radius: 1.6vh;
 }
 
@@ -93,7 +96,7 @@ function closeDropdown() {
   border: 2px solid $color-brand;
   border-radius: 1.4vh;
   margin-top: 1.2vh;
-  padding: 0.8vh 1.4vh;
+  padding: 0.7vh 1.1vh;
   width: 100%;
 }
 </style>
